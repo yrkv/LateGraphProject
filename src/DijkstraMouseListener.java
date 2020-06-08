@@ -20,7 +20,6 @@ public class DijkstraMouseListener implements MouseListener {
             double dist = node.getLocation().distance(mouseEvent.getPoint());
 
             if (dist < DijkstraDemo.Node.RADUIS) {
-                System.out.println(mouseEvent.getButton());
                 if (mouseEvent.getButton() == MouseEvent.BUTTON1) {
                     DijkstraDemo.updateStart(node);
                 }

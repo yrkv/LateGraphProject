@@ -1,4 +1,4 @@
-### (Very) Late API Project
+## (Very) Late API Project
 ---
 
 I chose the fairly straightforward [jgrapht](https://jgrapht.org/) library. The website describes it well, but put very simply it provides some conveniences for programming anything which involves graph structures. This (the one you are reading the readme for) project will consist of two main demos, each of which heavily relies on the JGraphT library. The first shows off a large number of small scale features, while the second integrates it into a larger, cohesive demo.
@@ -7,7 +7,7 @@ If you want to actually run the project, you'll have to install the library into
 
 ---
 
-#### Words and Such
+### Words and Such
 
 We can't show off how cool a graph library is without a graph. I happened to be helping a friend at the University of Iowa with a problem involving a graph and it happens to serve as a decent demo for a few features of JGraphT. The graph is defined as containing each word in a dictionary as a node, with there being an edge between words if they are one character replacement different. The graph does not contain fake words. We only deal with real words here. None of that "other languages" nonsense, only _American_ here. Pictured is a small snapshot of the graph centered on 'chair'. No other edges connect any of these words further. This is an isolated "island" in the graph.
 
